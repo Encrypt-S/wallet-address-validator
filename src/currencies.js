@@ -209,6 +209,12 @@ var CURRENCIES = [{
     name: 'raiblocks',
     symbol: 'xrb',
     validator: NANOValidator,
+},{
+  name: 'navcoin',
+  symbol: 'nav',
+  expectedLength: 25,
+  addressTypes: {prod: ['35'], testnet: ['32']},
+  validator: BTCValidator
 }];
 
 

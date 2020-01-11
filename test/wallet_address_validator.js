@@ -100,6 +100,10 @@ describe('WAValidator.validate()', function () {
             valid('2MxKEf2su6FGAUfCEAHreGFQvEYrfYNHvL7', 'peercoin', 'testnet');
         });
 
+        it('should return true for correct navcoin addresses', function () {
+          valid('NZoedJDMEweaoLyGricZJBYYddzcKsEYEN', 'navcoin');
+      });
+
         it('should return true for correct dogecoin addresses', function () {
             valid('DPpJVPpvPNP6i6tMj4rTycAGh8wReTqaSU', 'dogecoin');
             valid('DNzLUN6MyYVS5zf4Xc2yK69V3dXs6Mxia5', 'dogecoin');

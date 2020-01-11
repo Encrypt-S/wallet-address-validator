@@ -29,7 +29,8 @@
     "raiblocks",
     "javascript",
     "browser",
-    "nodejs"
+    "nodejs",
+    "navcoin"
   ],
   "version": "0.2.4",
   "author": "Tomek Kolasa <tomek@kolasa.me>",
